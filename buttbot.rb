@@ -71,7 +71,7 @@ class ButtBot
         notify "#{username} is back in the fight"
       end
       left_users.each do |username|
-        notify "#{username} eliminated"
+        notify "#{username} was eliminated"
       end
 
       last_users = now_users
